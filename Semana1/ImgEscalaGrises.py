@@ -1,6 +1,6 @@
 # Importar la biblioteca necesarios
-import cv2;
-import matplotlib.pyplot as plt
+import cv2; # type: ignore
+import matplotlib.pyplot as plt # type: ignore
 
 
 # Especificar ruta de la imágen
