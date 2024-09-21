@@ -46,7 +46,17 @@ for i in range(1, limitador):
         contador += 1
 print('Los números de 1 a', limitador, '. Tienen un TOTAL de', contador, 'multiplos de tres.');
 # 8.-Hacer un programa que imprima los numeros del 1 al 100. Que calcule la suma de todos los numeros pares por un lado, y por otro, la de todos los impares.
+print('\n# Ejercicio 8')
+sumPar = 0
+sumImpar = 0
 
+for i in range(1, 101):
+    if i % 2 == 0:
+        sumPar += i
+    else:
+        sumImpar += i
+print(sumPar)
+print(sumImpar)
 
 # 9.-Hacer un programa que imprima el mayor y el menor de una serie de cinco numeros que vamos introduciendo por teclado. 
 
